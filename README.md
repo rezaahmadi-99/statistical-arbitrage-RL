@@ -19,7 +19,7 @@ The trading agent is trained using tabular Q-learning on discretized states of t
 
 - Sharpe ratio on simulated Ornstein-Uhlenbeck paths: ~3.47
 - Negative cumulative PnL on out-of-sample backtest (2024)
-- The learned policy consistently identifies profitable entry and exit points in OU-generated process, but not competent in real-world
+- The learned policy consistently identifies profitable entry and exit points in OU-generated process, but not profitable in real-world
 
 ## Future Directions
 
