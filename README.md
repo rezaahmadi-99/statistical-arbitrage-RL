@@ -18,7 +18,7 @@ The trading agent is trained using tabular Q-learning on discretized states of t
 ## Results
 
 - Sharpe ratio on simulated Ornstein-Uhlenbeck paths: ~3.47
-- Negative cumulative PnL on out-of-sample backtest (2024)
+- Positive cumulative PnL on out-of-sample market data for GOOGL - MSFT through 1 trading year, achieving Sharpe ratio of ~4.13
 - The learned policy consistently identifies profitable entry and exit points in OU-generated process, but not profitable in real-world
 
 ## Future Directions
