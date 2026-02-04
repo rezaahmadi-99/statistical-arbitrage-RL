@@ -18,8 +18,7 @@ The trading agent is trained using tabular Q-learning on discretized states of t
 ## Results
 
 - Sharpe ratio on simulated Ornstein-Uhlenbeck path: ~3.48
-- Positive cumulative PnL on out-of-sample GOOGL - MSFT spread with optimized cointegration coefficient through 1 trading year, achieving Sharpe ratio of ~3.43
-- The learned policy consistently identifies profitable entry and exit points in both OU-generated process and out of sample spread for GOOGL - MSFT.
+- The learned policy consistently identifies profitable entry and exit points in OU-generated process, but in of sample spread for GOOGL - MSFT the performance varies. For example, through 2007 which the stock value dropped for both assets, the PnL consistently improved. However, since 2022, the agent struggled to have an edge in the market.
 
 ## Future Directions
 
