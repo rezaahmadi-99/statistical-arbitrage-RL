@@ -18,7 +18,8 @@ The trading agent is trained using tabular Q-learning on discretized states of t
 ## Results
 
 - Sharpe ratio on simulated Ornstein-Uhlenbeck path: ~3.48
-- The learned policy consistently identifies profitable entry and exit points in OU-generated process, but in of sample spread for GOOGL - MSFT the performance varies. For example, through 2007 which the stock value dropped for both assets, the PnL consistently improved. However, since 2022, the agent struggled to have an edge in the market.
+- The learned policy consistently identifies profitable entry and exit points in OU-generated process.
+- Delivered strong performance in high-volatility years, including Sharpe 3.58 and 15% cumulative profit in 2009, Sharpe 3.34 and 11% in 2024, Sharpe 3.30 and significant gains in 2023, and Sharpe 0.85 in 2008 crisis, while underperforming in low-reversion periods (Sharpe -0.72 in 2021, -0.25 in 2025). 
 
 ## Future Directions
 
